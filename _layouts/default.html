@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }}</title>
@@ -7,7 +7,9 @@
 		<link href="{{ site.path }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		{{ page.content }}
+		<div class="container">
+			{{ page.content }}
+		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="{{ site.path }}/js/bootstrap.min.js"></script>
 	</body>
