@@ -5,3 +5,12 @@ body
 	background-color: #eeeeee;
 }
 
+.post h*
+{
+	color: red;
+}
+
+div.post
+{
+	background-color: white;
+}
