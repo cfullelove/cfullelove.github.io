@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-AU" lang="en-AU" xmlns="http://www.w3.org/1999/xhtml" xmlns:aaa="http://www.w3.org/2005/07/aaa"
+xmlns:wairole="http://www.w3.org/2005/01/wai-rdf/GUIRoleTaxonomy#">
+<head>
+	<!-- content type & encoding -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- meta data -->
+	<meta name="viewport" content="width=device-width, user-scalable = yes, initial-scale = 1.0" />
+<title>Home (Department of Transport and Main Roads)
+		</title>
+
+<!-- meta data schemas -->
+<link rel="scheme.DC" href="http://purl.org/dc/terms/" title="Dublin Core Metadata Initiative (DCMI) Metadata Terms" />
+<link rel="scheme.AGLS" href="http://www.agls.gov.au/agls/terms/" title="Australian Government Locator Service (AGLS) Metadata Terms" />
+
+<!-- description --><meta name="description" content="Department of Transport and Main Roads website home page." />
+
+<!-- AGLS.Audience -->
+<!-- AGLS.Audience -->
+<!-- AGLS.Function -->
+<!-- AGLS.Mandate --><meta name="AGLS.Mandate" content="Integrated Planning Act 1997 (Qld)" />
+<!-- DC.Contributor --><meta name="DC.Contributor" scheme="AGLS.AglsAgent" content="corporateName=Department of Transport and Main Roads; jurisdiction=Queensland; sector=government" />
+<!-- DC.Coverage.jurisdiction --><meta name="DC.Coverage.jurisdiction" content="Queensland" />
+<!-- DC.Coverage.postcode -->
+<!-- DC.Coverage.spatial -->
+<!-- DC.Creator --><meta name="DC.Creator" scheme="AGLS.AglsAgent" content="corporateName=Department of Transport and Main Roads; jurisdiction=Queensland; sector=government" />
+<!-- DC.Date --><meta name="DC.Date" scheme="DC.W3CDTF" content="2013-07-23" />
+<!-- DC.Date.created --><meta name="DC.Date.created" scheme="DC.W3CDTF" content="0001-01-01" />
+<!-- DC.Date.modified -->
+<!-- DC.Description --><meta name="DC.Description" content="Department of Transport and Main Roads website home page." />
+<!-- DC.Format --><meta name="DC.Format" content="text/html" />
+<!-- DC.Identifier --><meta name="DC.Identifier" scheme="DC.URI" content="http://www.tmr.qld.gov.au/" />
+<!-- DC.Language --><meta name="DC.Language" scheme="DC.RFC4646" content="en-AU" />
+<!-- DC.Publisher --><meta name="DC.Publisher" scheme="AGLS.AglsAgent" content="corporateName=Department of Transport and Main Roads; jurisdiction=Queensland; sector=government" />
+<!-- DC.Rights --><meta name="DC.Rights" scheme="DC.URI" content="http://www.tmr.qld.gov.au/Help/Copyright.aspx" />
+<!-- DC.Source -->
+<!-- DC.Subject --><meta name="DC.Subject" content="transport and main roads,tmr,dtmr,queensland transport,department of transport,main roads, qld transport, department of transport qld,tmr.qld.gov.au, main roads qld,ministry,rta,dtmr,dmr" />
+<!-- DC.Title --><meta name="DC.Title" content="Home" />
+<!-- DC.Title.alternative -->
+<!-- DC.Type.category --><meta name="DC.Type.category" content="Document" />
+<!-- DC.license -->
+	<!-- favicon -->
+	<link rel="shortcut icon" href="/cue/images/favicon.ico" type="image/x-icon" />
+	
+   <!-- styles -->
+	<!-- CUE styles -->
+	<link rel="stylesheet" type="text/css" href="/cue/css/qg.css" media="all" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="/cue/css/qg-ie.css" type="text/css" media="all" /><![endif]-->
+	<!-- Screen size layout styles -->
+	<link href="/cue/css/layout-small.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="/cue/css/layout-medium.css" media="only all and (min-width: 43em) and (max-width: 65em)"
+		rel="stylesheet" type="text/css" />
+	<link href="/cue/css/layout-large.css" media="only all and (min-width: 65em)" rel="stylesheet"
+		type="text/css" />
+
+	<link rel="stylesheet" type="text/css" media="all" href="/styles/TMRInternet/site-tmr.css" />
+	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="all" href="/styles/TMRInternet/ie-7-and-below.css" /><![endif]-->
+	
+	<!-- scripts -->
+	<!-- CUE scripts -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="/cue/js/ie-layout.js"></script>
+    <![endif]-->
+	<!-- TMR specific scripts -->
+	<script type="text/javascript" charset="utf-8" src="/scripts/TMRBase/jquery.compact.js"></script> 
+	<script type="text/javascript" charset="utf-8" src="/scripts/TMRComponents/jquery.compact.tabbed.js"></script>
+    
+	
+    
+	<!--SSQ Analytics Tracking -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23425750-39']);
+		_gaq.push(['_trackPageview']);
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<!--TMR Analytics Tracking -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-30356750-1']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+
+<body id="qld-gov-au">
+	<!--noindex-->
+	<!--[if lt IE 9]><script type="text/javascript">jQuery && jQuery.transformer({addClasses:true})</script><![endif]-->
+	<!-- #access -->
+	<div id="access"><h2>Skip links and keyboard navigation</h2><ul><li><a href="#content">Skip to content</a></li><li><a href="#nav-site">Skip to site navigation</a></li><li><a href="#footer">Skip to footer</a></li><li><a href="http://www.qld.gov.au/help/accessibility/keyboard.html#section-aria-keyboard-navigation">Use tab and cursor keys to move around the page (more information)</a></li></ul></div>
+	<!-- #header -->
+	<div id="header">
+		<div class="box-sizing">
+			<div class="max-width">
+				<h2>
+					Site header</h2>
+				<a id="qg-logo" href="http://www.qld.gov.au/">
+					<!-- <img src="/images/qglogo-print.gif" alt="Queensland Government" height="40" /> -->
+					<!--[if gte IE 7]><!-->
+					<img src="/images/qg-logo-colour.png" width="240" height="42" alt="Queensland Government" /><!--<![endif]-->
+					<!--[if lte IE 6]><img src="/cue/images/qg-logo-ie6.png" width="240" height="42" alt="Queensland Government" /><![endif]-->
+					<img src="/cue/images/qg-logo-print.png" width="240" height="42" class="print-version"
+						alt="" />
+				</a>
+				<!-- #tools -->
+				<ul id="tools"><li><a accesskey="3" href="/Site-map.aspx">Site map</a></li><li><a accesskey="4" href="/About-us/Contact-us.aspx">Contact us</a></li><li><a href="/Help.aspx">Help</a></li><li class="last-child"><form action="/search-results.aspx" id="search-form"><div class="search-wrapper"><label for="search-query">Search Department of Transport and Main Roads</label><input type="text" name="query" id="search-query" size="15" value="" accesskey="5" title="Search Department of Transport and Main Roads..." /><input id="search-form-submit" type="submit" value="Search" /></div></form></li></ul>
+
+                <div id="head-split">
+				    <!-- #agency -->
+				    <h2 id="site-name">
+    					<a href="/" accesskey="2">
+						    <!--[if gte IE 7]><!-->
+						    <img src="/images/tmr_logo.png" height="28" width="454" alt="Transport and Main Roads" /><!--<![endif]-->
+						    <!--[if lte IE 6]><img src="/images/tmr_logo.png" height="20" width="204" alt="Transport and Main Roads" /><![endif]-->
+						    <img src="/images/tmr_print.png" height="28" width="454" class="print-version" alt="" />
+					    </a>
+				    </h2>
+                </div>
+			</div>
+		</div>
+	</div>
+	<form name="Form1" method="post" action="/Default.aspx" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NjkzNTMyMjdkZOYL9/ye65yPYZOrG4NAAN3bevRU" />
+</div>
+
+
+<script src="/scripts/TMRBase/jquery.aria.js" type="text/javascript"></script>
+<script src="/scripts/TMRBase/jquery.aria.key-nav.js" type="text/javascript"></script>
+<script src="/scripts/TMRBase/jquery.compact.js" type="text/javascript"></script>
+<script src="/scripts/TMRBase/jquery.compact.slideshow.js" type="text/javascript"></script>
+<script src="/scripts/TMRBase/jquery.resize-events.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=y15-ttK3FtPGnl8hn2xat-5o_J3gY6_VehBsBH5BLX2kSZ08IBqbrBxsKsmFrduHomwJuhf9GjEYx1mAyFkSJik5AT5LAe4I4KxkbM1CnzWzOvPEnmDUSPogSCMplwNvKS6eT3C_CbU0MRNxb0rqZqFDeNM1&amp;t=fffffffffd2793e7" type="text/javascript"></script>
+	
+	<!-- #nav-site -->
+	<div id="nav-site"><div class="max-width"><h2>Site navigation</h2><ul><li class="current "><a href="/"><span title="Current section"><strong>Home</strong></span></a></li><li><a href="/Licensing.aspx"><span>Licensing</span></a></li><li><a href="/Registration.aspx"><span>Registration</span></a></li><li><a href="/Safety.aspx"><span>Safety</span></a></li><li><a href="/Travel-and-transport.aspx"><span title="Travel and transport">Travel and transport</span></a></li><li><a href="/Projects.aspx"><span>Projects</span></a></li><li><a href="/business-industry.aspx"><span>Business and industry</span></a></li><li><a href="/Community-and-environment.aspx"><span>Community and environment</span></a></li><li class="last-child"><a href="/About-us.aspx"><span>About us</span></a></li></ul></div></div>
+	<!--endnoindex-->
+	<!-- #page-container -->
+	
+
+<!-- Close off the default ASP.NET form - Note this may cause issues with some ASP widgets for the homepage -->
+</form>
+<div id="page-container" class="home">
+    <div class="max-width">
+        <div id="content-container">
+        	<div id="content">
+	
+		        <div id="primary" class="article">
+			        <div class="box-sizing">
+			
+        				<h1>Department of Transport and Main Roads</h1>
+			
+		        		<!-- #breaking-news -->
+        				
+
+        				<!-- #primary-content -->
+		        		<div id="primary-content">
+				        	
+		<div id="lookingFor3Col">
+      <div>
+        <div class="box-sizing">
+          <h2>Licensing</h2>
+          <ol>
+            <li>
+              <a href="/Licensing/Getting-a-licence/Renewing-a-licence.aspx">Find out how to renew your licence</a></li>
+            <li>
+              <a href="/Licensing/Getting-a-licence.aspx">Getting a Queensland driver licence</a></li>
+            <li>
+              <a href="/Licensing/Learning-to-drive.aspx">Learning to drive a car or motorbike</a></li>
+            <li>
+              <a href="/Licensing/Getting-a-licence/Upgrading-a-licence.aspx">How to upgrade your licence</a></li>
+          </ol>
+          <p>
+            <a href="/Licensing.aspx">View all licensing information</a></p>
+        </div>
+      </div>
+      <div>
+        <div class="box-sizing">
+          <h2 class="stoneLine">Registration</h2>
+          <ol>
+            <li>
+              <a href="/Registration/Registering-vehicles/Registering-motor-vehicles-and-motorbikes.aspx">Registering vehicles and motorbikes</a></li>
+            <li>
+              <a href="/Registration/Changing-your-registration-details.aspx">Changing your registration details</a></li>
+            <li>
+              <a href="/Registration/Transferring-registration.aspx">Transferring vehicle registration</a></li>
+            <li>
+              <a href="/Registration/Buying-or-selling-a-used-vehicle.aspx">Buying or selling a used vehicle</a></li>
+          </ol>
+          <p>
+            <a href="/Registration.aspx">View all registration information</a></p>
+        </div>
+      </div>
+      <div>
+        <div class="box-sizing">
+          <h2 class="tealLine">Forms</h2>
+          <ol>
+            <li>
+              <a href="http://www.support.transport.qld.gov.au/qt/formsdat.nsf/Forms/QF3503">F3503 New customer application</a></li>
+            <li>
+              <a href="http://www.support.transport.qld.gov.au/qt/formsdat.nsf/Forms/QF4362">F4362 Evidence of identity information sheet</a></li>
+            <li>
+              <a href="http://www.support.transport.qld.gov.au/qt/formsdat.nsf/Forms/QF3000">F3000 Driver licence application/renewal</a></li>
+            <li>
+              <a href="http://www.support.transport.qld.gov.au/qt/formsdat.nsf/Forms/QF3518">F3518 Vehicle registration application</a></li>
+          </ol>
+          <p>
+            <a href="http://www.tmr.qld.gov.au/Find-a-form.aspx">View all forms</a></p>
+        </div>
+      </div>
+    </div>
+<div id="contentQuickSearch"><div class="box-sizing"><h2>Search for...</h2><form action="/search-results.aspx" id="content-search-form"><div class="content-search-wrapper"><label for="content-search-query">Search Department of Transport and Main Roads</label><input type="search" name="query" id="content-search-query" size="15" value="" title="Search Department of Transport and Main Roads..." placeholder="e.g. How to get a licence" /><input type="submit" value="" id="content-search-button" /></div><p class="search-helper">Please use keywords to make your search as accurate as possible</p></form></div></div><div class="compact slideshow" id="whats-new-slideshow"><div id="section-1" class="section"><h3>Plate of Origin</h3><div class="feature-image"><img src="/~/media/aboutus/Newsroom/plateoforiginphoto.ashx" alt="Potential designs to commemorate the State of Origin" width="240" height="148" /><span class="caption"></span></div><div class="feature-content"><span class="date">21 July 2013</span>
+		<p>Have your say on the tagline for limited edition number plates to celebrate the Queensland State of Origin team's record-breaking eighth series.</p>
+<p class="more"><a href="http://www.getinvolved.qld.gov.au/gi/consultation/1417/view.html">Read more…</a></p></div></div><div id="section-2" class="section"><h3>Be part of the Queensland Plan</h3><div class="feature-image"><img src="/~/media/aboutus/Newsroom/queenslandplan.ashx" alt="Queensland Plan logo" width="373" height="189" /><span class="caption"></span></div><div class="feature-content"><span class="date">19 July 2013</span>
+		<p>The Queensland Plan is every Queenslander’s unique opportunity to have a say about where we are heading over the next 30 years.</p>
+<p class="more"><a href="http://queenslandplan.qld.gov.au/">Read more…</a></p></div></div><div id="section-3" class="section"><h3>New driver licence reforms to make Queensland roads safer</h3><div class="feature-image"><img src="/~/media/aboutus/Newsroom/younglearner240x148px.ashx" alt="Learner driver applying L plate to vehicle." width="240" height="148" /><span class="caption"></span></div><div class="feature-content"><span class="date">01 July 2013</span>
+		<p>A package of driver licence reforms will be rolled out over the next 18 months to make Queensland roads safer for all drivers.</p>
+<p class="more"><a href="/About-us/Newsroom/New-driver-licence-reforms-to-make-Queensland-roads-safer.aspx">Read more…</a></p></div></div><div id="section-4" class="section"><h3>Better buckle up</h3><div class="feature-image"><img src="/~/media/aboutus/Newsroom/betterbuckleup240x148px.ashx" alt="Better buckle up" width="240" height="148" /><span class="caption"></span></div><div class="feature-content"><span class="date">13 June 2013</span>
+		<p>As Queensland’s road toll reaches 140, motorists are urged to buckle up.</p>
+<p class="more"><a href="/About-us/Newsroom/Better-buckle-up.aspx">Read more…</a></p></div></div></div>
+
+				        </div>
+			        </div>
+		        </div>
+		        <!-- end #primary -->
+
+		        <div class="aside">
+                    <div class="box-sizing">
+	        	        <div id="secondary">
+			                <!-- <div class="inner"> -->
+		
+				                
+		<div id="services-online">
+      <h2 class="online-services">I want to...</h2>
+      <ul>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/changeofaddressQt/MaintainAddress.jsp">Change my customer address</a> </li>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/driverlicencerenewal/CustomerAuthentication.jsp">Renew my driver licence</a> </li>
+        <li>
+          <a href="/Online-services.aspx#renewalsandpayments">Pay my registration</a> </li>
+        <li>
+          <a href="/Online-services.aspx#finesandinfringements">Pay my fine</a> </li>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/SBSExternal/CleanBookingDE.jsp">Book a practical driving test</a> </li>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/eQuote/eQuote.jsp">Get a registration quote</a> </li>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/rrtexternal/SelectExam.jsp">Do a practice road rules test</a> </li>
+        <li>
+          <a href="https://www.service.transport.qld.gov.au/SBSExternal/CleanBookingVI.jsp">Book a vehicle inspection</a> </li>
+      </ul>
+      <a href="/Online-services.aspx">View all services online</a> </div>
+
+
+		        		        <!-- #news -->
+        				        <div id="news" class="section">
+		        		        	<h2>News</h2>
+				        	        
+				                </div>
+			                    <!-- </div> -->
+		                </div>
+                    </div>
+                </div>
+		        <!-- end #secondary -->
+		    </div>
+            <!-- end content -->
+        </div>
+	</div>
+</div>
+<!-- end #page-container -->
+<!-- re-open the form to prevent a validation error, or possible code errors -->
+<form name="Form2" method="post" action="/Default.aspx" id="Form2">
+	<!--noindex-->
+    <div id="footer">
+        <!-- #fat footer -->
+	    <div id="fat-footer"><div class="max-width"><div class="box-sizing"><h2>Explore this site</h2><div class="section"><h3><a href="/About-us/Popular.aspx">Popular</a></h3><ul><li><a href="/Find-a-form.aspx">Find a form</a></li><li><a href="/Traffic-cameras-by-location.aspx">Traffic cameras</a></li><li><a href="/About-us/Contact-us/In-person/Customer-service-centres.aspx">Find a customer service centre</a></li><li><a href="/Interactive-map.aspx">Interactive map</a></li><li class="last-child"><a href="/Community-and-environment/Indigenous-programs.aspx">Indigenous programs</a></li></ul></div><div class="section"><h3><a href="/Help/Search.aspx">Looking for</a></h3><ul><li><a href="/Registration/Buying-or-selling-a-used-vehicle.aspx">Buying or selling a used vehicle</a></li><li><a href="/Licensing/Licence-demerit-points.aspx">Demerit points</a></li><li><a href="/Licensing/Getting-a-licence.aspx">Getting a licence</a></li><li><a href="/Licensing/Learning-to-drive.aspx">Learning to drive</a></li><li><a href="/Registration/Registering-vehicles.aspx">Registering vehicles</a></li><li><a href="/Safety/Queensland-Road-Rules.aspx">Queensland road rules</a></li><li class="last-child"><a href="/Projects.aspx">Our projects</a></li></ul></div><div class="section"><h3><a href="/Online-services.aspx">Online services</a></h3><ul><li><a href="/Online-services.aspx#finesandinfringements">Pay your fine</a></li><li><a href="https://www.service.transport.qld.gov.au/driverlicencerenewal/CustomerAuthentication.jsp">Renew your licence</a></li><li><a href="https://www.service.transport.qld.gov.au/changeofaddressQt/MaintainAddress.jsp">Change your address</a></li><li><a href="/Online-services.aspx#renewalsandpayments">Renew your registration</a></li><li><a href="https://www.service.transport.qld.gov.au/SBSExternal/CleanBookingDE.jsp">Book a driving test</a></li><li class="last-child"><a href="https://www.service.transport.qld.gov.au/SBSExternal/CleanBookingVI.jsp">Book a vehicle inspection</a></li></ul></div><div class="section"><h3><a>Related sites</a></h3><ul><li><a href="http://www.131940.qld.gov.au">Traffic and Travel info (13 19 40)</a></li><li><a href="http://www.msq.qld.gov.au">Maritime Safety Queensland</a></li><li><a href="http://www.translink.com.au">TransLink</a></li><li><a href="http://www.ppq.com.au">Personalised Plates Queensland</a></li><li class="last-child"><a href="http://www.queenslandrail.com.au">Queensland Rail</a></li></ul></div><div class="section"><h3 class="last-child"><a href="/About-us/Contact-us.aspx">Contact us</a></h3><ul><li><a href="/About-us/Contact-us.aspx#contactphone">Phone</a></li><li><a href="/About-us/Contact-us.aspx#contactonline">Online</a></li><li><a href="/About-us/Contact-us/In-person.aspx">Visit us</a></li><li><a href="/About-us/Contact-us.aspx">Mail</a></li><li><a href="http://www.getinvolved.qld.gov.au">Get Involved consultations</a></li><li><a class="fat-footer-facebook" href="http://www.facebook.com/TMRQld">Facebook</a></li><li><a class="fat-footer-twitter" href="http://www.twitter.com/TMRQld">Twitter</a></li><li class="last-child"><a class="fat-footer-rss" href="/RSS-Feeds-Directory.aspx">RSS</a></li></ul></div></div></div></div>
+	    <!-- #footer -->
+	    <div class="max-width"><div class="box-sizing"><h2>Site footer</h2><ul><li><a href="/Help/Copyright.aspx">Copyright</a></li><li><a href="/Help/Disclaimer.aspx">Disclaimer</a></li><li><a href="/Help/Privacy.aspx">Privacy</a></li><li><a href="/About-us/Right-to-Information.aspx">Right to Information</a></li><li><a href="/Help/Accessibility.aspx">Accessibility</a></li><li><a href="http://www.qld.gov.au/jobs/">Jobs in Queensland Government</a></li><li class="last-child"><a class="languages" href="http://www.qld.gov.au/languages/">Other languages</a></li></ul><p>© The State of Queensland (Department of Transport and Main Roads) 2010-2013</p><p><a href="http://www.qld.gov.au" accesskey="1">Queensland Government</a></p><div id="qg-branding"><p>Great state. Great opportunity</p></div><img class="print-version" src="/images/TMRBase/tagline-footer-for-light-bg.png" alt="" /></div></div>
+    </div>
+    
+	<!-- CUE script -->
+	<!--[if gte IE 9]><!-->
+	<!--<![endif]-->
+	<script type="text/javascript" src="/cue/js/qg.js"> </script>
+	
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+	<!--endnoindex-->
+</body>
+</html>
