@@ -1,0 +1,15 @@
+---
+
+layout: post
+title: redbook.me has an API?
+post_date: 2012-09-13 11:36:09
+
+---
+
+<div data-src="v5"><p><span id="internal-source-marker_0.9333275079261512"> </span></p>
+<p dir="ltr">redbook.me has recently undergone a fairly significant overhaul of its underlying codebase. When I built redbook initially a few years ago it was flat, very flat. The backend of redbook.me is written in PHP and I&rsquo;m ashamed to say that while it worked fine, I had a PHP for every page and some core functions in a common file. Code duplication everywhere and not a class in sight!</p>
+<p dir="ltr"><span>When I decided to go back and improve </span><span>redbook.me</span><span>, the first thing I thought to do was to rewrite everything from scratch. And I tried. But the task proved to be just a little bit too big. So I took the iterative approach - slowly improving the existing code with a direction towards better practice.</span></p>
+<p>The situation has improved significantly over the last few months and recently it has taken a substantial jump. redbook.me now uses lots of the new shiny features of PHP 5.3 including, namespaces, PHP5 classes, etc. In addition, I&rsquo;ve restructured the code so that it uses something close to a Model, View, Controller (MVC) object oriented design.</p>
+<p>When making the improvements I drew inspiration from projects such as <a href="http://rubyonrails.org/">Ruby on Rails</a> and <a href="http://symfony.com/">Symfony2</a>. Actually, I&rsquo;m using some of the Symfony2 components in redbook.me to handle HTTP requests and sessions. No sense reinventing the wheel!</p>
+<p>So what does all this mean? Well now that redbook.me is built to better industry standards, the speed that I can improve it has increased considerably. Also, the site just runs better (shocking!). A pretty awesome side effect of the new structure is that I actually ended up with an API. The frontend javascript is already using it, I just hadn&rsquo;t looked at it that way before. What this means is that redbook.me can easily be extended to other interfaces such as iPhone, Android, etc without significant changes to the backend code. I could even allow public access to the API for third parties.</p>
+<p>I feel like I&rsquo;ve discovered all these benefits of object oriented design a bit late but hey, better late than never! The effect these improvements has had on my enthusiasm for improving the product is pretty strong. Indeed, I&rsquo;ve even decided to start commercialising! Check out <a href="http://redbook.me/">redbook.me</a>.</p></div>

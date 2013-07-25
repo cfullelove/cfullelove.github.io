@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="{{ site.path }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="{{ site.path }}/css/default.css" rel="stylesheet" media="screen">
+		{% include ga.html %}
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="span12 text-center">
+					<h1>{{ site.title }}</h1>
+					<p class="lead">{{ site.tagline }}</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span8 offset2 posts-container">
+					<div class="row page_nav">
+						<div class="span8 text-center">
+							<a class='btn' href="{{ site.path }}/">Home</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span6 offset1 post">
+							<h1 class="post-title"><a href="{{ site.path }}{{ post.url }}">{{ page.title }}</a></h1>
+							<p class="post-date">{{ page.date | date_to_long_string }}</p>
+							<div class="post-content">
+								{{ content }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="{{ site.path }}/js/bootstrap.min.js"></script>
+	</body>
+</html>

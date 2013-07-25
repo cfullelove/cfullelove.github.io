@@ -1,0 +1,22 @@
+---
+
+layout: post
+title: Shiny Reports
+post_date: 2012-10-05 06:53:08
+
+---
+
+<p>Recently <a href="http://redbook.me">redbook.me</a> got a cool new feature - reports! This is something that I’ve wanted to include for a while in the product, but hadn’t due to the difficulty of implementing it on the old architecture. With the new backend, however, implementing new features has been really fast so; reports!</p><img src="http://static.squarespace.com/static/50616230c4aaf3a25087208f/50616266e4b09bed8049ae97/506e851fe4b0400133c8c4f5/1349420320928/png%3Bbase64cdba48a6395467b7.png" /><p>For now I’ve only built one report but I think its one of the more important ones - the labour cost trend. This allows managers/owners to look at how the weekly labour costs is trending over time. This is a very useful tool that allows identification of labour usage patterns that might not be otherwise evident - especially if you are tracking it against gross earnings. It can be helpful when building new rosters also, as it helps gauge the consistency with previous weeks.</p>
+
+<p>Some of the reports I’d like to build in the near future are:</p>
+
+<ul>
+<li><p>Average Labour Cost by day of the week - this will show the average relative cost of labour between each day of the week.</p></li>
+<li><p>Rostered Hours Trend Report - similar to the labour cost trend report, but using hours instead of cost</p></li>
+</ul>
+
+<h2 id="nerdstuff">Nerd Stuff</h2>
+
+<p>In this section I’ll give a quick overview of how the reports were implemented.</p>
+
+<p>For presentation of the charts, I used the Google Charts API. Implementing the charts was fairly simple but it’s clear that there is a lot functionality offered that I have yet to take advantage of ;-). While I’m going to try not to put charts everywhere, I think there is room for their use in a number parts of redbook.me.</p>

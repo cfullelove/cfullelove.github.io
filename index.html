@@ -7,24 +7,86 @@ tagline: A view on anything from an easily distracted engineer
 ---
 <div class="container">
 	<div class="row">
-		<div class="span12">
-			<h1>{{ page.title }}</h1>
-			<p class="lead">{{ page.tagline }}</p>
+		<div class="span12 text-center">
+			<h1>{{ site.title }}</h1>
+			<p class="lead">{{ site.tagline }}</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="span12">
+		<div class="span8 offset2 posts-container">
+			{% if paginator.page != 1 %}
+				<div class='row page_nav'>
+					<div class='span2 text-right'>
+						{% if paginator.previous_page %}
+							{% if paginator.previous_page == 1 %}
+								<a class='btn' href='/'>Previous</a>
+							{% else %}
+								<a class='btn' href="{{ site.path }}{{ paginator.previous_page_path }}">Previous</a>
+							{% endif %}
+						{% else %}
+							<a class='btn disabled' href='#'>Previous</a>
+						{% endif %}
+					</div>
+					<div class='span4 text-center'>
+						<a class='btn' href='{{ site.path }}/'>Home</a>
+					</div>
+					<div class='span2 text-left'>
+						{% if paginator.next_page %}
+							<a class='btn' href="{{ site.path }}{{ paginator.next_page_path }}">Next</a>
+						{% else %}
+							<a class='btn disabled' href="#">Next</a>
+						{% endif %}
+					</div>
+				</div>
+			{% endif %}
+
 			{% for post in paginator.posts %}
 				<div class="row">
-					<div class="span12 post">
-						<h1><a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a></h1>
-						<p class="muted">{{ post.date }}</p>
+					<div class="span6 offset1 post">
+						<h1 class="post-title"><a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a></h1>
+						<p class="post-date">{{ post.date | date_to_long_string }}</p>
 						<div class="post-content">
 							{{ post.content }}
 						</div>
 					</div>
 				</div>
 			{% endfor %}
+
+			<div class='row page_nav'>
+				<div class='span2 text-right'>
+					{% if paginator.previous_page %}
+						{% if paginator.previous_page == 1 %}
+							<a class='btn' href='/'>Previous</a>
+						{% else %}
+							<a class='btn' href="{{ site.path }}{{ paginator.previous_page_path }}">Previous</a>
+						{% endif %}
+					{% else %}
+						<a class='btn disabled' href='#'>Previous</a>
+					{% endif %}
+				</div>
+				<div class='span4 text-center'>
+					{% if paginator.page == 1 %}
+						<a href="#">1</a>
+					{% else %}
+						<a href="{{ site.path }}/">1</a>
+					{% endif %}
+
+					{% for count in (2..paginator.total_pages) %}
+						{% if count == paginator.page %}
+							<a href="#">{{ count }}</a>
+						{% else %}
+							<a href="{{ site.path }}/page{{ count }}">{{ count }}</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+				<div class='span2 text-left'>
+					{% if paginator.next_page %}
+						<a class='btn' href="{{ site.path }}{{ paginator.next_page_path }}">Next</a>
+					{% else %}
+						<a class='btn disabled' href="#">Next</a>
+					{% endif %}
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
