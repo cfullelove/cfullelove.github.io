@@ -5,6 +5,11 @@ body
 	background-color: #eeeeee;
 }
 
+div.navbar-inner a
+{
+	width: 90px;
+}
+
 div.post
 {
 	margin-bottom: 45px;

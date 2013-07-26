@@ -13,6 +13,16 @@ tagline: A view on anything from an easily distracted engineer
 		</div>
 	</div>
 	<div class="row">
+		<div class="span8 offset2">	
+			<div class="navbar">
+				<div class="navbar-inner text-center">
+					<a class="btn disabled" href="{{ site.path }}/">Home</a>
+					<a class="btn" href="{{ site.path }}/aboutme.html">About Me</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
 		<div class="span8 offset2 posts-container">
 			{% if paginator.page != 1 %}
 				<div class='row page_nav'>
@@ -43,7 +53,7 @@ tagline: A view on anything from an easily distracted engineer
 			{% for post in paginator.posts %}
 				<div class="row">
 					<div class="span6 offset1 post">
-						<h1 class="post-title"><a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a></h1>
+						<h1 class="post-title"><a href="{{ site.path }}/{{ post.url }}">{{ post.title }}</a></h1>
 						<p class="post-date">{{ post.date | date_to_long_string }}</p>
 						<div class="post-content">
 							{{ post.content }}
