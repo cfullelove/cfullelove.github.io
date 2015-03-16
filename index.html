@@ -35,7 +35,7 @@ tagline: A view on anything from an easily distracted engineer
 							{% if paginator.previous_page == 1 %}
 								<a href="/">&larr; Newer Posts</a>
 							{% else %}
-								<a href="{{ site.path }}/{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
+								<a href="{{ site.path }}{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
 							{% endif %}
                     </li>
                 </ul>
@@ -44,7 +44,7 @@ tagline: A view on anything from an easily distracted engineer
 				
 				{% for post in paginator.posts %}
                 <div class="post-preview">
-                    <a href="{{ site.path }}/{{ post.url }}">
+                    <a href="{{ site.path }}{{ post.url }}">
                         <h2 class="post-title">
                             {{ post.title }}
                         </h2>
@@ -62,7 +62,7 @@ tagline: A view on anything from an easily distracted engineer
 				<!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-						<a href="{{ site.path }}/{{ paginator.next_page_path }}">lder Posts &rarr;</a>
+						<a href="{{ site.path }}{{ paginator.next_page_path }}">lder Posts &rarr;</a>
                     </li>
                 </ul>
 						{% endif %}
