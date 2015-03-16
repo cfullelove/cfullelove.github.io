@@ -132,8 +132,9 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+
 .intro-header {
-  background-color: #808080;
+  background-color: #303030;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -152,7 +153,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 80px 0;
   }
 }
 .intro-header .site-heading,
