@@ -52,7 +52,7 @@ tagline: A view on anything from an easily distracted engineer
                             {{ post.content | strip_html | truncate 600 }}
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by {{site.author}} on September 24, 2014</p>
+                    <p class="post-meta">Posted by {{site.author}} on {{ post.date | date_to_long_string }}</p>
                 </div>
                 <hr>
 				{% endfor %}
