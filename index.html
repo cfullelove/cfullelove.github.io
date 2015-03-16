@@ -57,15 +57,13 @@ tagline: A view on anything from an easily distracted engineer
                 <hr>
 				{% endfor %}
 	
-				{% if paginator.page != 1 %}
-						{% if paginator.next_page %}
+				{% if paginator.next_page %}
 				<!-- Pager -->
                 <ul class="pager">
                     <li class="next">
 						<a href="{{ site.path }}{{ paginator.next_page_path }}">lder Posts &rarr;</a>
                     </li>
                 </ul>
-						{% endif %}
 				{% endif %}
 
 			</div>
