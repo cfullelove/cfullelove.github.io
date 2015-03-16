@@ -2,37 +2,35 @@
 
 layout: default
 title: About Me
+tagline: A ditracted engineer
 
 ---
-<div class="container">
-	<div class="row">
-		<div class="span12 text-center">
-			<h1>{{ site.title }}</h1>
-			<p class="lead">{{ site.tagline }}</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="span8 offset2">	
-			<div class="navbar">
-				<div class="navbar-inner text-center">
-					<a class="btn" href="{{ site.path }}/">Home</a>
-					<a class="btn disabled" href="{{ site.path }}/aboutme.html">About Me</a>
-				</div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>{{ page.title }}</h1>
+                        <hr class="small">
+                        <span class="subheading">{{ page.tagline }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<p>I am a Distracted Engineer from Brisbane, Australia. This is my website. I am intensely interested in the new and exciting innovations occurring everywhere on the Internet, the technology behind it, and ultimately the people that are behind the technology. My dream is to one day be one of those people.</p>
+
+				<p>I have a formal educational background in Electrical Engineering, but I am also a programmer on the side experience in various languages and platforms. I greatly enjoy building things in code, and hope one day to make a living out of that.</p>
+
+				<p>Please consider this page a work in progress - being an engineer, my self descriptive skills can be somewhat limited.</p>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="span8 offset2 posts-container">
-			<div class="row">
-				<div class="span6 offset1">
-					<h1 class="post-title">{{ page.title }}</h1>
-					<p>I am a Distracted Engineer from Brisbane, Australia. This is my website. I am intensely interested in the new and exciting innovations occurring everywhere on the Internet, the technology behind it, and ultimately the people that are behind the technology. My dream is to one day be one of those people.</p>
-
-					<p>I have a formal educational background in Electrical Engineering, but I am also a programmer on the side experience in various languages and platforms. I greatly enjoy building things in code, and hope one day to make a living out of that.</p>
-
-					<p>Please consider this page a work in progress - being an engineer, my self descriptive skills can be somewhat limited.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
