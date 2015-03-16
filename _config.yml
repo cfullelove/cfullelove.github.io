@@ -4,4 +4,7 @@ paginate: 5
 title: Distracted Engineer
 tagline: A view on anything from an easily distracted engineer
 author: Chris Fullelove
+name: Distracted Engineer Blog
+description: A view on anything from an easily distracted engineer
+url: http://distractedengineer.com
 ...
