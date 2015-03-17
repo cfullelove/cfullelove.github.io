@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rostability"
-published: false
+published: true
 post_date: 2015-03-18 00:00
 ---
 [Rostability](http://rostability.com) is a rebranding of Redbook - the staff availability and roster software I have been developing over the last 6 years - and represents my latest effort to market the product to a wider customer base.
