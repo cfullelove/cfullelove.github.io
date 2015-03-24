@@ -25,3 +25,9 @@ The beginnings of a navtive Jasper Report XML (jrxml) rendering library in PHP. 
 This is a library I wrote as a native PHP implementation of the COAP protocol. COAP is like a really light-weight version of HTTP and is one of the up and coming protocols being use in the Internet of Things space.
 
 [Find out more (Github)](https://github.com/cfullelove/PhpCoap)
+
+# Ninjablock (PHP)
+
+This is a port of one of the original [Ninjablock](http://ninjablock.com) clients to PHP. It is not particularly stable at this stage but does allow for connection to the NinjaCloud platform with higher perforamance than the REST api.
+
+[Find out more (Github)](https://github.com/cfullelove/NinjaBlock)
