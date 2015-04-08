@@ -135,6 +135,7 @@ hr.small {
 }
 
 .intro-header {
+  background-image: url( "../img/background.jpg" );
   background-color: #303030;
   background-attachment: scroll;
   -webkit-background-size: cover;
