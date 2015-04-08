@@ -18,3 +18,4 @@ The following is a list of links to various profiles across the web:
 - Keybase.io - [https://keybase.io/cfullelove](https://keybase.io/cfullelove)
 - Twitter - [https://twitter.com/cfullelove](https://twitter.com/cfullelove)
 - Facebook - [https://facebook.com/cfullelove](https://facebook.com/cfullelove)
+- Instagram - [https://instagram.com/cfullelove](https://instagram.com/cfullelove)
