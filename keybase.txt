@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/cfullelove
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://distractedengineer.com
+  * I am cfullelove (https://keybase.io/cfullelove) on keybase.
+  * I have a public key with fingerprint 2623 04D0 4C9E 86E0 D7C5  C317 84A4 A0CF 7138 1590
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "262304d04c9e86e0d7c5c31784a4a0cf71381590",
+            "host": "keybase.io",
+            "key_id": "84a4a0cf71381590",
+            "kid": "0101d90d9d8991855f79f8accc9a6864f91b06a26808eb3f91250b08c671f1e488530a",
+            "uid": "1a154112d0cdbf4e849436cb31116b00",
+            "username": "cfullelove"
+        },
+        "service": {
+            "hostname": "distractedengineer.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428489196,
+    "expire_in": 157680000,
+    "prev": "79e196ef4958f8eefe7d0144a9b18a276ab6b49e4ee0fde5adb4ffb0028e5e09",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMI0AnicbZJdaBRXFMd3TVRcLTVqHkJ86Zioq2u8d/bOzL1bQS2lKH6kqRXxA9Y7
+M2eSMZuZdWZ2W7utPhmkSv2oraCmUcRGmwiK4EdC0CSKQiKBFknUSqwfD9YGQkpF
+BcU7Qd96Xy7n3P/5nfs/nGsfFEVi0dUr4ue0eFM+2tu1MhdZW1n0T0HSXXOblCpI
+9TB2WbZTC17Ws51ASkmyKicRMRExGFAVkKkZipHEGiWccGRYGk5SrDAkJaQ61w8r
+BEbnPlTZrsiJIG2bIvs/+vqxB4QRNhkymUkZw1RRLI1ZlBuGwbhKVWIxrCOVyypF
+FPSkCGUF6YgaqoYtDIRSJYm4wOXGcJhjhWAsm8gwdYsAJYwkVUNPYoxVHYV9cz54
+Dm8AoTasXCYDGTcP0ncJSeTztgHhEEIv7zSm7QceNwIwwam1HQCvynAbBCfruYFr
+uBmhqQuCbCpEBNuyYc1XoKff0dK67ZhipKIgD55vu46UwkJpBHaIx0SmhDLM1IQE
+X2dtD9J2qFA0YVicsA3kBVJjIERgEaZQiwJYoJkIE8KZjimXNZXrqk4YEABkmaBw
+UyeWJRzLFBRATAr9bXVcKZUU3+S1AunbtQ4Pcp4w3311U3EkGotMGD8uXIpIbNLU
+96uirJ34esbDlsGJ8h/q4oNz9i9urdjzzVD1wv4Lt8pHf6sudCz4/pMVyyq7WeeR
+mzvarabE6Kd4ZV3L8b4v0s1V42fn9p3fuzGx9M/7044d3VV/bHBnMR1ed7B0/0ko
+GejswDfM/57JqUJD7O7nvHvfXwPRQlv7ov7RuVvLWvwH6x7NfLXnef7iiVT1pQ0l
+1+M9Iy+2Z85U3n48efdu9G/r2adrfpg/FOtdUNPRs/xKyU9PUHF7Jb0cnd5WOvxz
++sMH69OP+g5vebNFPt11Ry0val7V5H8Un9fR+PuhA7n4ZxUjPaeqZz37tuLH+5sv
+HG+uefVlY2LVvfV/Hx36ZXX5r4deTimr+thv7O3Rl6j9bwFdrCl7
+=8O2q
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cfullelove
+
+==================================================================
