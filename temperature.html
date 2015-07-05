@@ -86,7 +86,7 @@ tagline: ~
     <script>
     function drawChart()
     {
-      $.get( "https://a.ninja.is/rest/v0/device/1012BB013284_0101_0_31/data?from="+(a.getTime() - ( 2 * 24 * 3600000 ))+"&interval=1min&fn=mean&user_access_token=11d7e2ae-c586-4d1f-b9a8-b8ac16382870",
+      $.get( "https://a.ninja.is/rest/v0/device/1012BB013284_0101_0_31/data?from="+((new Date).getTime() - ( 2 * 24 * 3600000 ))+"&interval=1min&fn=mean&user_access_token=11d7e2ae-c586-4d1f-b9a8-b8ac16382870",
 	function( results ) {
 		console.log( data );
       		var data = new google.visualization.DataTable();
