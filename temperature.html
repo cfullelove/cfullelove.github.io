@@ -39,6 +39,47 @@ tagline: ~
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://www.google.com/jsapi"></script>
+    <!-- jQuery -->
+    <script src="{{ site.path }}/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ site.path }}/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ site.path }}/js/clean-blog.min.js"></script>
+    <script>
+    function drawChart()
+    {
+      $.get( "https://a.ninja.is/rest/v0/device/1012BB013284_0101_0_31/data?from="+((new Date).getTime() - ( 2 * 24 * 3600000 ))+"&interval=1min&fn=mean&user_access_token=11d7e2ae-c586-4d1f-b9a8-b8ac16382870",
+	function( results ) {
+		console.log( results );
+      		var data = new google.visualization.DataTable();
+      		data.addColumn('datetime', 'Time');
+		data.addColumn('number', 'Temp');
+		$.each(results.data, function (i, row) {
+			data.addRow([
+				(new Date(row.t)),
+				parseFloat(row.v)
+			]);
+		});
+		
+		var chart = new google.visualization.LineChart($('#chart').get(0));
+		
+		chart.draw(data, {
+			title: 'Temperature @ Home'
+		});
+	} );
+    }
+
+	google.load('visualization', '1', {
+	packages: ['corechart']
+	});
+
+	// call drawChart once google charts is loaded
+	google.setOnLoadCallback(drawChart);
+    
+    });
+    </script>
 
 </head>
 
@@ -75,48 +116,6 @@ tagline: ~
     <hr>
 
 	{% include footer.html %}
-    <!-- jQuery -->
-    <script src="{{ site.path }}/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ site.path }}/js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ site.path }}/js/clean-blog.min.js"></script>
-    <script>
-    function drawChart()
-    {
-      $.get( "https://a.ninja.is/rest/v0/device/1012BB013284_0101_0_31/data?from="+((new Date).getTime() - ( 2 * 24 * 3600000 ))+"&interval=1min&fn=mean&user_access_token=11d7e2ae-c586-4d1f-b9a8-b8ac16382870",
-	function( results ) {
-		console.log( results );
-      		var data = new google.visualization.DataTable();
-      		data.addColumn('datetime', 'Time');
-		data.addColumn('number', 'Temp');
-		$.each(results.data, function (i, row) {
-			data.addRow([
-				(new Date(row.t)),
-				parseFloat(row.v)
-			]);
-		});
-		
-		var chart = new google.visualization.LineChart($('#chart').get(0));
-		
-		chart.draw(data, {
-			title: 'Temperature @ Home'
-		});
-	} );
-    }
-    $(document).ready(function(){
-	// load chart lib
-	google.load('visualization', '1', {
-	packages: ['corechart']
-	});
-
-      // call drawChart once google charts is loaded
-      google.setOnLoadCallback(drawChart);
-    
-    });
-    </script>
 </body>
 
 </html>
