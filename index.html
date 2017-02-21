@@ -43,18 +43,14 @@ tagline: A view on anything from an easily distracted engineer
 				{% endif %}
 				
 				{% for post in paginator.posts %}
-                <div class="post-preview">
-                    <a href="{{ site.path }}{{ post.url }}">
-                        <h2 class="post-title">
-                            {{ post.title }}
-                        </h2>
-                        <h3 class="post-subtitle">
-                            {{ post.content | strip_html | truncate 600 }}
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by {{site.author}} on {{ post.date | date_to_long_string }}</p>
-                </div>
-                <hr>
+				<div class="post-preview">
+					<a href="{{ site.path }}{{ post.url }}">
+						<h2 class="post-title">{{ post.title }}</h2>
+					</a>
+					<p class="post-meta">Posted by {{site.author}} on {{ post.date | date_to_long_string }}</p>
+					{{ post.content }}
+				</div>
+				<hr>
 				{% endfor %}
 	
 				{% if paginator.next_page %}
