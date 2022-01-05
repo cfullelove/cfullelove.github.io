@@ -119,7 +119,7 @@ scrape_configs:
       target_label: "host"
 ```
 
-`rsyslog.conf` configured according to: https://grafana.com/docs/loki/latest/clients/promtail/scraping/#rsyslog-output-configuration
+`rsyslog.conf` configured according to: [https://grafana.com/docs/loki/latest/clients/promtail/scraping/#rsyslog-output-configuration](https://grafana.com/docs/loki/latest/clients/promtail/scraping/#rsyslog-output-configuration)
 
 ## Solution
 
@@ -146,10 +146,10 @@ template(name="missingAppName" type="string" string="<%PRI%>1 %TIMESTAMP:::date-
 
 I found the following links useful while working through this problem:
 
-- https://github.com/grafana/loki/issues/4270
-- https://datatracker.ietf.org/doc/html/rfc5424#page-8
+- [https://github.com/grafana/loki/issues/4270](https://github.com/grafana/loki/issues/4270)
+- [https://datatracker.ietf.org/doc/html/rfc5424#page-8](https://datatracker.ietf.org/doc/html/rfc5424#page-8)
 - rsyslog documentation:
-    - https://www.rsyslog.com/doc/v8-stable/configuration/templates.html
-    - https://www.rsyslog.com/doc/v8-stable/configuration/properties.html
-    - https://www.rsyslog.com/doc/v8-stable/configuration/converting_to_new_format.html
-- https://serverfault.com/questions/1040972/rsyslog-forward-using-original-source-ip-over-tls
+    - [Templates](https://www.rsyslog.com/doc/v8-stable/configuration/templates.html)
+    - [Properties](https://www.rsyslog.com/doc/v8-stable/configuration/properties.html)
+    - [Converting to new format](https://www.rsyslog.com/doc/v8-stable/configuration/converting_to_new_format.html)
+- [https://serverfault.com/questions/1040972/rsyslog-forward-using-original-source-ip-over-tls](https://serverfault.com/questions/1040972/rsyslog-forward-using-original-source-ip-over-tls)
